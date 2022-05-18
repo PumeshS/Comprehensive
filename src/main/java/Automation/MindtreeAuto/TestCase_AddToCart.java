@@ -61,7 +61,7 @@ public class TestCase_AddToCart {
 		driver.findElement(By.xpath("//a[@class='continueshop']")).click();
 		driver.findElement(By.xpath("//span[@class='header-icon-link user-profile-icon']")).click();
 		driver.findElement(By.xpath("//a[@id='logout']")).click();
-		
+		System.out.println("closed");
 		Thread.sleep(2000);
 		driver.quit();
 	}
