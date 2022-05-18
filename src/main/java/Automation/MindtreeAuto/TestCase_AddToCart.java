@@ -63,7 +63,6 @@ public class TestCase_AddToCart {
 		driver.findElement(By.xpath("//a[@id='logout']")).click();
 		
 		Thread.sleep(2000);
-		System.out.println("Closed ");
 		driver.quit();
 	}
 

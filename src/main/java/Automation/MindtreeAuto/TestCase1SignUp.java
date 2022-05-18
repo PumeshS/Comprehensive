@@ -21,7 +21,6 @@ public class TestCase1SignUp {
 		
 		driver.findElement(By.xpath("(//input[@name='commit'])[2]")).click();
 		Thread.sleep(2000);
-		System.out.println("closed");
 		driver.close();
 	}
 }
